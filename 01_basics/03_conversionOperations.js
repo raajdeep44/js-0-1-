@@ -20,7 +20,7 @@ let flag = 1
 
 let boolFlag = Boolean(flag);
 
-console.log(boolFlag);
+// console.log(boolFlag);
 
 
 // 1 => true
@@ -28,3 +28,21 @@ console.log(boolFlag);
 // "" => false
 // " " => true
 // "code" => true
+
+
+// ******************************* Operators *************** //
+let value = 3
+let negValue = -value
+//console.log(negValue)
+
+let str1 = "hello"
+let str2 = " rajdeep"
+
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)
+console.log("1" + 2)
+console.log("1"+ 2 +2);
+console.log("1"+2+"2");
+
