@@ -20,3 +20,21 @@ const newarr = arr.join() // in strings
 
 console.log(newarr) // typeof -> string
 console.log(arr)
+
+// slice and splice
+
+console.log("A ",arr); // og array
+
+// using slice
+let nums1 = arr.slice(1,3);
+
+console.log(nums1); // 2 3
+console.log("B ",arr); // B 1 2 3 4
+
+// using splice
+let nums2 = arr.splice(1,3);
+
+console.log(nums2); // 2 3 4
+console.log("C ",arr) // C 1 5 
+
+
