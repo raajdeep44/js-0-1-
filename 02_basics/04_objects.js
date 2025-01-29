@@ -37,3 +37,5 @@ console.log(bumbleuser)
 console.log(Object.keys(bumbleuser));   // return data in arrays
 console.log(Object.values(bumbleuser)); // return data in arrays
 console.log(Object.entries(bumbleuser));
+
+console.log(Object.hasOwnProperty('isLoggedIn'))
