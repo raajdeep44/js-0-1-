@@ -9,7 +9,7 @@ const result = addTwonumbers(3,4);
 function userLogIn(username = "user"){
     if(username == undefined){ // !username
         console.log("please enter a user name");
-        return;
+        return; 
     }
     return `${username} just logged in`;
 }
@@ -19,3 +19,28 @@ function userLogIn(username = "user"){
 // console.log(userLogIn("")); // just logged in
 console.log(userLogIn()); // undefined just logged in
 // userLogIn(); 
+
+// ++++++++++ Rest operator ++++++++++++++
+function calculateCartPrice(val1,val2,...num1){
+    return num1;
+}
+
+console.log(calculateCartPrice(200,300,400,500));
+
+// object 
+const user = {
+    username : "rajdeep",
+    price: 1000
+}
+
+function handleObject(anyUser)
+{
+    console.log(`username is ${anyUser.username} and the price is ${anyUser.price}`);
+}
+
+// handleObject(user);
+handleObject({
+    username : "raj",
+    price : 500
+})
+
