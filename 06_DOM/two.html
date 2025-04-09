@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: black; color: white">
     <div>
         <div class="parent">
             <div class="day">Monday</div>
@@ -15,4 +15,30 @@
         </div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent')
+    //console.log(parent)
+    //console.log(parent.children) // gives html collection
+    //console.log(parent.children[1].innerHTML) //monday
+    // +++ simple for loop can be used for html collection
+    // ++++here parent.children is html collection not parent
+//    for(let i=0;i<parent.children.length;i++)
+//    {
+//     console.log(parent.children[i].innerHTML)
+//    }
+
+   // +++++++++  styling
+   parent.children[1].style.color = 'orange'
+
+   // more properties of parent
+//  console.log(parent.firstElementChild) //givesfirstchild
+//  console.log(parent.lastElementChild) //gives last child
+  
+  // +++++++ child to parent
+  const dayOne = document.querySelector('.day')
+  //   console.log(dayOne)
+//   console.log(dayOne.parentElement) // gives parent element
+//   console.log(dayOne.nextElementSibling)
+ console.log("NODES",parent.childNodes) // gives nodelist tree like structure
+</script> 
 </html>
